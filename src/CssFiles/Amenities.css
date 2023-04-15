@@ -1,0 +1,40 @@
+.amenities-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -590px;
+  }
+  
+  .amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 10px;
+    margin-top: 50px;
+  }
+  
+  .amenity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .amenity:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: coral;
+  }
+  
+  .amenity i {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  
+  .amenity p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  

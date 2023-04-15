@@ -1,0 +1,66 @@
+.broker-profile-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+
+.broker-profile-photo {
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0
+
+}
+.broker-profile-top-left {
+  flex: 1;
+  margin-right: 20px;
+}
+
+
+.broker-profile-photo {
+  height: 200px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.broker-profile-top-right {
+  flex: 2;
+}
+
+.broker-profile-contact-info {
+  margin-top: 20px;
+}
+
+.broker-profile-contact-info p {
+  margin: 0;
+}
+
+.broker-profile-contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.broker-profile-contact-info li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.broker-profile-contact-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+.broker-profile-contact-info a:hover {
+  text-decoration: underline;
+}
+
+.broker-profile-bottom {
+  margin-top: 20px;
+}
+
+.broker-profile-social-links{
+  size: 20px;
+}
