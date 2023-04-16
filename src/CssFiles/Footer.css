@@ -12,7 +12,7 @@
 
 .look{
   z-index:100;
-  background-color: red;
+  background-color: hsl(9, 100%, 62%);
   position: relative;
   display: flex;
   flex-direction: row;
@@ -154,9 +154,9 @@
   font-size: 45px;
 }
 .hit {
-  background-color: #4CAF50; /* Green */
+  background-color: #ffffff; /* Green */
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -183,8 +183,8 @@
 }
 
 .hit:hover {
-  background-color: #ffffff;
-  color: black;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
   border: 2px;
   border-color: black;
 }

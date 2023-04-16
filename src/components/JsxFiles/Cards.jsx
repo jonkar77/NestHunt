@@ -3,7 +3,7 @@ import '../../CssFiles/Cards.css';
 
 const Cards = () => {
   return (
-    <div className="whole">
+    <div className="whole" id='cad'>
       <h2 className="hed">OUR MAIN FOCUS</h2>
     
     <div className="card-container">
@@ -14,7 +14,8 @@ const Cards = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis nulla sed quam accumsan, eu porta nisi malesuada. Suspendisse potenti. Nam dignissim neque justo, vel auctor magna fringilla ut.
           </p>
           <p className="card-price">$99.99</p>
-          <button className='btn'>Browse homes</button>
+          <a href='/housegrid'>
+          <button className='btn'>Browse homes</button></a>
         </div>
       </div>
       <div className="card">
@@ -24,7 +25,8 @@ const Cards = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis nulla sed quam accumsan, eu porta nisi malesuada. Suspendisse potenti. Nam dignissim neque justo, vel auctor magna fringilla ut.
           </p>
           <p className="card-price">$99.99</p>
-          <button className='btn'>Sell homes</button>
+          <a href='/housegrid'>
+          <button className='btn'>Sell homes</button></a>
 
         </div>
       </div>
@@ -35,8 +37,8 @@ const Cards = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis nulla sed quam accumsan, eu porta nisi malesuada. Suspendisse potenti. Nam dignissim neque justo, vel auctor magna fringilla ut.
           </p>
           <p className="card-price">$99.99</p>
-          <button className='btn'>Rent a home</button>
-
+          <a href='/housegrid'>
+          <button className='btn'>Rent a home</button></a>
         </div>
       </div>
     </div>

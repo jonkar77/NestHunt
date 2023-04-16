@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 68px;
   height: 110vh;
   /* background-color: aqua; */
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://th.bing.com/th/id/R.1bc60bd3666fc3431cd8b1d1ac6c3d0a?rik=J5Pjsy7Dhb0HKg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f7%2f2%2f52697.jpg&ehk=bSFndpRj8KLi1JoWtUOLDphHPT%2bKC3nAvyYQgMDgSeQ%3d&risl=&pid=ImgRaw&r=0");
@@ -68,7 +68,7 @@ h1 {
 }
 
 .search-bar button {
-  background-color: #1100ff;
+  background-color: black;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
@@ -79,7 +79,7 @@ h1 {
 }
 
 .search-bar button:hover {
-  background-color: #0054ae;
+  background-color: #00000094;
 }
 
 .add-property-button {
@@ -87,9 +87,9 @@ h1 {
   bottom: 25%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #fff;
-  color: #1100ff;
-  border: 2px solid #1100ff;
+  background-color: hsl(9, 100%, 62%);
+  color: white;
+  border: 1px solid hsl(9, 100%, 62%);
   border-radius: 30px;
   padding: 10px 20px;
   font-size: 1.5rem;
@@ -99,8 +99,9 @@ h1 {
 }
 
 .add-property-button:hover {
-  background-color: #1100ff;
-  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border-color: black;
 }
 
 

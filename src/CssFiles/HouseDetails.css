@@ -1,10 +1,11 @@
 .hd-container {
   display: flex;
-  flex-direction: column;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+    flex-direction: column;
+    margin: 0px;
+    padding: 7px;
+    border: 1px solid hsl(9, 100%, 62%);
+    border-radius: 2px;
+    margin-top: 86px;
 }
 
 .hd-top {

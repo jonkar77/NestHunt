@@ -1,9 +1,14 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
 import '../../CssFiles/Home.css';
+import Cards from './Cards';
+import Amenities from './Amenities';
+import About from './About';
+import CardDetail from "./CardDetail";
 
 const Home=() => {
   return (
+    <>
     <div className="search-bar-container">
       <div className="background-image"></div>
       <div className="text">
@@ -30,10 +35,14 @@ const Home=() => {
         <input type="text" placeholder="Location, Zipcode..." />
         <button>Go</button>
       </div>
-      <button className="add-property-button">Add a Property</button>
+      <a href='/property'><button className="add-property-button">Add a Property</button></a>
     </div>
+    <Cards/>
+    <About/>
+    <CardDetail/>
+    <Amenities/>
+  </>
   );
-  
 };
 
 export default Home;

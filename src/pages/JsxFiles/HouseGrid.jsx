@@ -26,12 +26,13 @@ const HouseGrid=() => {
     <div className='house-grid'>
       <Filter />
       {houses.map((house) => (
-        <div key={house.id} className='house-card'>
+        <a href={`/housedetail`}><div key={house.id} className='house-card'>
           <img src={house.img} alt='House' className='house-image' />
           <div className='house-details'>
             <span className='house-price'>{house.price}</span>
           </div>
         </div>
+        </a>
       ))}
     </div>
   );

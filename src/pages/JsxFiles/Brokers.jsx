@@ -44,6 +44,24 @@ const brokersData = [
     salesVolume: "$80 million",
     commissionRate: "4.5%",
   },
+  {
+    name: "Jane Doe",
+    experience: "8 years",
+    salesVolume: "$80 million",
+    commissionRate: "4.5%",
+  },
+  {
+    name: "Jane Doe",
+    experience: "8 years",
+    salesVolume: "$80 million",
+    commissionRate: "4.5%",
+  },
+  {
+    name: "Jane Doe",
+    experience: "8 years",
+    salesVolume: "$80 million",
+    commissionRate: "4.5%",
+  },
   // Add more broker data here...
 ];
 
@@ -52,7 +70,7 @@ const Brokers = () => {
 
   return (
     <div className="brokers-container">
-      <h1>Top 50 Brokers</h1>
+      <h1>Top 10 Brokers</h1>
       <table>
         <thead>
           <tr>
@@ -67,7 +85,7 @@ const Brokers = () => {
           {brokers.map((broker, index) => (
             <tr key={index}>
               <td>{index + 1}</td>
-              <a href={`/broker`}>
+              <a href={`/brokerprofile`}>
               <td>{broker.name}</td>
             </a>
               <td>{broker.experience}</td>

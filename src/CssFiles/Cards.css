@@ -68,8 +68,8 @@
 .btn {
     /* display: inline-block; */
     padding: 10px 20px;
-    background-color: #6200ff;
-    color: #fff;
+    background-color: #ff5a3d;
+    color: #ffffff;
     font-size: 1.7rem;
     font-weight: bold;
     text-decoration: none;
@@ -82,9 +82,12 @@
     left: 40px;
     justify-content: center;
     align-items: center;
+    border: 1px solid hsl(9, 100%, 62%);;
   }
   
   .btn:hover {
-    background-color: #000000;
+    background-color: #ffffff;
+    color: #000000;
+    border-color: black;
   }
   

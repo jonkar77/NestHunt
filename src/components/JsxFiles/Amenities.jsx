@@ -3,7 +3,7 @@ import '../../CssFiles/Amenities.css';
 
 const Amenities = () => {
   return (
-    <div className="amenities-container">
+    <div className="amenities-container" id='amn'>
       <h1>Amenities</h1>
       <div className="amenities-grid">
         <div className="amenity">

@@ -2,10 +2,10 @@
     background-color: #fff;
     margin-top: 90px;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #000000;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     position: fixed;
-    top: 0;
+    top: -21px;
     left: 0;
     z-index: 999;
   }
@@ -15,7 +15,7 @@
     align-items: center;
     justify-content:space-between;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
   }
   
   .dropdowns-container {

@@ -2,9 +2,9 @@ import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
 import '../../CssFiles/CardDetail.css';
 
-const Cards = () => {
+const CardDetail = () => {
   return (
-    <div className="card-box">
+    <div className="card-box" id='cd'>
       <div className="card">
         <div className="card-image">
           <img src="https://example.com/image1.jpg" alt="Product 1" />
@@ -67,4 +67,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default CardDetail;
